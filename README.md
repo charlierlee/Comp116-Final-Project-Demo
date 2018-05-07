@@ -28,12 +28,14 @@ The extension on the surface will replace any instance of 'Nicolas Cage' with 'G
 
 Navigate to any webpage for which you have saved credentials, and open the developer tools on your browser (e.g. Ctrl-Shift-i on Chrome). Navigate to the console view. If you are using Chrome's built in autofill, you must interact with the page, otherwise the autofill feature on your password manager should trigger the extension's script. In the console, you should see: 
 
- ---
+ ```
  Field: autofill_email Value: [email]
  Field: autofill_email Value: [password]
- ---
- 
-With the autofilled email and password. For a dummy site to test this functionality, visit my [demo page](https://gregpickart.xyz/security.html)
+ ```
+
+With the autofilled email and password. 
+
+For a dummy site to test this functionality, visit my [demo page](https://gregpickart.xyz/security.html)
 
 ## Authors
 
