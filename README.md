@@ -8,6 +8,8 @@ This chrome extension is a demonstration of autofill sniffing for the Comp116 fi
 
 Updated Chrome or Firefox browser.
 
+### Installation
+
 Clone the repository or simply download the zip. Then follow the instructions below for the browser you are using. WARNING: This will temporarily install the extension in developer mode for each browser. It is recommended to disable the extension after using the demo.
 
 ### Chrome
