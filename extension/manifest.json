@@ -1,15 +1,3 @@
-/***************************************
- *
- *      manifest.json
- *      by Gregory Pickart
- *      May 3, 2018
- *
- *      Chrome extension manifest file for Comp116 Final Project demo. 
- *      The extension disguises itself as a silly word replacement extension
- *      while in the background sniffing for password manager autofill actions.
- * 
- ***************************************/
-
 {
   "name": "Comp116 Final Project Supplement",
   "version": "1.0",
