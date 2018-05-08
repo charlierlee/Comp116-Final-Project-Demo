@@ -1,4 +1,4 @@
-# Comp116 Final Project Demonstation - Autofill Sniffing Chrome Extension
+# Comp116 Final Project Demonstation - Autofill Sniffing Browser Extension
 
 This chrome extension is a demonstration of autofill sniffing for the Comp116 final project. The extension hides itself as a silly word replacement utility, but in the background injects a hidden autofill form into every webpage and checks for autofilled content.
 
