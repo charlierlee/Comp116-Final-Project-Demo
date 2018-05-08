@@ -35,9 +35,9 @@ Navigate to any webpage for which you have saved credentials, and open the devel
  Field: autofill_email Value: [password]
  ```
 
-With the autofilled email and password. 
+with the autofilled email and password. 
 
-For a dummy site to test this functionality, visit my [demo page](https://gregpickart.xyz/security.html)
+For a dummy site to test this functionality, visit my [demo page](https://gregpickart.xyz/security.html).
 
 ## Authors
 
